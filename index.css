@@ -9,7 +9,7 @@
  4. make the navbar be responsive too!! shrink it. Just a littleeee. 
 
  
- /*///////////////////////////////////////////////////////////////////// */
+ /*/
  /*///////////////////////////////////////////////////////////////////// */
 .nav{
     display: flex;
@@ -73,7 +73,7 @@
 }
 
     .ichigo-headline{
-        font-size: 4rem;
+        font-size: 2.8rem;
     }
         /*Ichigo Headline yang berwarna*/
         .colored{

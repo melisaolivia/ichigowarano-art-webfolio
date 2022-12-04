@@ -6,12 +6,14 @@
  to do list :
  1. how to make photo be shrinked when i dicreasing te vw. 
  2. how to make the ichigo photo be responsive
- 3. (DONE) how to make the kebaya image be wrap(make the new line) when i dicreasing the vw A.K.A RESPONSIVE!!!!
- 4. make the navbar be responsive too!! shrink it. Just a littleeee. */ 
+ 4. make the navbar be responsive too!! shrink it. Just a littleeee. 
+
  
  /*///////////////////////////////////////////////////////////////////// */
  /*///////////////////////////////////////////////////////////////////// */
 .nav{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     margin-right: 5px;
     padding-top:15px;
@@ -22,7 +24,6 @@
     flex-shrink: 1;
 }
     .nav a{
-        display: flex;
         text-decoration: none;
         margin-top: 20px;
         padding-right: 56px; 
@@ -31,7 +32,6 @@
         font-size:1.2rem;
         flex-shrink: 1;
     }
-
         .nav a:hover{
             color:#FFE2C8 ;
             text-decoration: underline;
